@@ -47,12 +47,6 @@ const customers = [
     image_url: '/customers/michael-novotny.png',
   },
   {
-    id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
-    name: 'Evil Rabbit',
-    email: 'evil@rabbit.com',
-    image_url: '/customers/evil-rabbit.png',
-  },
-  {
     id: '126eed9c-c90c-4ef6-a4a8-fcf7408d3c66',
     name: 'Emil Kowalski',
     email: 'emil@kowalski.com',
@@ -108,12 +102,6 @@ const invoices = [
     amount: 54246,
     status: 'pending',
     date: '2023-07-16',
-  },
-  {
-    customer_id: customers[6].id,
-    amount: 666,
-    status: 'pending',
-    date: '2023-06-27',
   },
   {
     customer_id: customers[3].id,
